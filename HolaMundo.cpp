@@ -2,7 +2,14 @@
 #include <stdlib.h>
 
 int main(){
-    printf("HolaMundo!\n\n");
+    int a,b,c;
+
+    a = 10;
+    b = 20;
+    c = a + b;
+    printf("a = %d ; b = %d ; c = %d\n",a,b,c);
+   
+    //printf("HolaMundo!\n\n");
     system("pause");
     return 0;
 }
